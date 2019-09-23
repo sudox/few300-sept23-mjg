@@ -9,9 +9,9 @@ export const filterShowOnlyUpcoming = createAction(
 );
 
 export const sortByName = createAction(
-  '[gift-giving] sort by name'
+  '[gift-giving] sort holidays by name'
 );
 
 export const sortByDate = createAction(
-  '[gift-giving] sort by date'
+  '[gift-giving] sort holidays by date'
 );
