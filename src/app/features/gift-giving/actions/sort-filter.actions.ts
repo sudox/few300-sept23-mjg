@@ -7,3 +7,11 @@ export const filterShowAll = createAction(
 export const filterShowOnlyUpcoming = createAction(
   '[gift-giving] filter show only upcoming'
 );
+
+export const sortByName = createAction(
+  '[gift-giving] sort by name'
+);
+
+export const sortByDate = createAction(
+  '[gift-giving] sort by date'
+);
